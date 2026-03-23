@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Course Details</title>
+<link rel="stylesheet" href="styles.css">
+
+<script>
+function enroll(course){
+  localStorage.setItem("selectedCourse", course);
+  window.location.href="register.html";
+}
+</script>
+
+</head>
+
+<body>
+
+<header>
+<h1>Course Details</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="courses.html">Courses</a>
+<a href="details.html">Course Details</a>
+<a href="register.html">Register</a>
+<a href="login.html">Login</a> 
+<a href="contact.html">Contact</a>
+
+</nav>
+</header>
+
+<h2 class="title">Explore Course Details</h2>
+
+<!-- 1. WEB DEVELOPMENT -->
+<div class="detail-card" id="web">
+<div class="course-header" style="background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200')">
+<h2>Web Development</h2>
+</div>
+<p><b>Instructor:</b> John</p>
+<p><b>Duration:</b> 3 Months</p>
+<p><b>Rating:</b> ⭐4.5</p>
+<p><b>Price:</b> ₹2000</p>
+<p><b>Course Curriculum: </b></p>
+<ul>
+ <li>HTML, CSS, JavaScript</li>
+ <li>Responsive Design</li>
+ <li>Website Deployment</li>
+ <li>Mini Projects</li>
+ <li>Real-world Applications</li>
+</ul>
+<button onclick="enroll('Web Development')">Enroll</button>
+</div>
+
+<!-- 2. PYTHON -->
+<div class="detail-card" id="python">
+<div class="course-header" style="background-image:url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200')">
+<h2>Python Programming</h2>
+</div>
+<p><b>Instructor:</b> Ravi</p>
+<p><b>Duration:</b> 2 Months</p>
+<p><b>Rating:</b> ⭐4.6</p>
+<p><b>Price:</b> ₹1800</p>
+<p><b>Course Curriculum: </b></p>
+<ul>
+<li>Python Basics</li>
+<li>Loops & Functions</li>
+<li>File Handling</li>
+<li>Mini Projects</li>
+<li>Problem Solving</li>
+</ul>
+<button onclick="enroll('Python Programming')">Enroll</button>
+</div>
+
+<!-- 3. DATA SCIENCE -->
+<div class="detail-card" id="ds">
+<div class="course-header" style="background-image:url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200')">
+<h2>Data Science</h2>
+</div>
+<p><b>Instructor:</b> Sneha</p>
+<p><b>Duration:</b> 4 Months</p>
+<p><b>Rating:</b> ⭐4.7</p>
+<p><b>Price:</b> ₹3000</p>
+<p><b>Course Curriculum: </b></p>
+<ul>
+<li>Data Analysis</li>
+<li>Python Libraries</li>
+<li>Visualization</li>
+<li>Machine Learning Basics</li>
+<li>Projects</li>
+</ul>
+<button onclick="enroll('Data Science')">Enroll</button>
+</div>
+
+<!-- 4. CYBER SECURITY -->
+<div class="detail-card" id="cyber">
+<div class="course-header" style="background-image:url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1200')">
+<h2>Cyber Security</h2>
+</div>
+<p><b>Instructor:</b> Arjun</p>
+<p><b>Duration:</b> 3 Months</p>
+<p><b>Rating:</b> ⭐4.4</p>
+<p><b>Price:</b> ₹2500</p>
+<p><b>Course Curriculum: </b></p>
+<ul>
+<li>Network Security</li>
+<li>Ethical Hacking</li>
+<li>Encryption</li>
+<li>Threat Analysis</li>
+<li>Security Tools</li>
+</ul>
+<button onclick="enroll('Cyber Security')">Enroll</button>
+</div>
+
+<!-- 5. JAVA -->
+<div class="detail-card" id="java">
+<div class="course-header" style="background-image:url('https://images.unsplash.com/photo-1517433456452-f9633a875f6f?w=1200')">
+<h2>Java Programming</h2>
+</div>
+<p><b>Instructor:</b> Kiran</p>
+<p><b>Duration:</b> 3 Months</p>
+<p><b>Rating:</b> ⭐4.5</p>
+<p><b>Price:</b> ₹2200</p>
+<p><b>Course Curriculum: </b></p>
+<ul>
+<li>OOP Concepts</li>
+<li>Core Java</li>
+<li>Collections</li>
+<li>Projects</li>
+<li>Applications</li>
+</ul>
+<button onclick="enroll('Java Programming')">Enroll</button>
+</div>
+
+<!-- 6. MACHINE LEARNING -->
+<div class="detail-card" id="ml">
+<div class="course-header" style="background-image:url('https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=1200')">
+<h2>Machine Learning</h2>
+</div>
+<p><b>Instructor:</b> Rahul</p>
+<p><b>Duration:</b> 4 Months</p>
+<p><b>Rating:</b> ⭐4.8</p>
+<p><b>Price:</b> ₹3500</p>
+<p><b>Course Curriculum: </b></p>
+<ul>
+<li>Supervised Learning</li>
+<li>Algorithms</li>
+<li>Model Training</li>
+<li>Projects</li>
+<li>AI Basics</li>
+</ul>
+<button onclick="enroll('Machine Learning')">Enroll</button>
+</div>
+
+<!-- 7. CLOUD COMPUTING -->
+<div class="detail-card" id="cloud">
+<div class="course-header" style="background-image:url('https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=1200')">
+<h2>Cloud Computing</h2>
+</div>
+<p><b>Instructor:</b> Meena</p>
+<p><b>Duration:</b> 3 Months</p>
+<p><b>Rating:</b> ⭐4.6</p>
+<p><b>Price:</b> ₹2800</p>
+<p><b>Course Curriculum: </b></p>
+<ul>
+<li>AWS Basics</li>
+<li>Cloud Storage</li>
+<li>Deployment</li>
+<li>Security</li>
+<li>Projects</li>
+</ul>
+<button onclick="enroll('Cloud Computing')">Enroll</button>
+</div>
+
+<!-- 8. APP DEVELOPMENT -->
+<div class="detail-card" id="app">
+<div class="course-header" style="background-image:url('https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1200')">
+<h2>App Development</h2>
+</div>
+<p><b>Instructor:</b> Anil</p>
+<p><b>Duration:</b> 3 Months</p>
+<p><b>Rating:</b> ⭐4.5</p>
+<p><b>Price:</b> ₹2600</p>
+<p><b>Course Curriculum: </b></p>
+<ul>
+<li>Android Basics</li>
+<li>UI Design</li>
+<li>APIs</li>
+<li>Projects</li>
+<li>Publishing Apps</li>
+</ul>
+<button onclick="enroll('App Development')">Enroll</button>
+</div>
+
+<!-- 9. UI/UX -->
+<div class="detail-card" id="uiux">
+<div class="course-header" style="background-image:url('https://images.unsplash.com/photo-1545235617-9465d2a55698?w=1200')">
+<h2>UI/UX Design</h2>
+</div>
+<p><b>Instructor:</b> Priya</p>
+<p><b>Duration:</b> 2 Months</p>
+<p><b>Rating:</b> ⭐4.6</p>
+<p><b>Price:</b> ₹2000</p>
+<p><b>Course Curriculum: </b></p>
+<ul>
+<li>Design Principles</li>
+<li>Wireframing</li>
+<li>Prototyping</li>
+<li>Tools (Figma)</li>
+<li>Projects</li>
+</ul>
+<button onclick="enroll('UI/UX Design')">Enroll</button>
+</div>
+
+<!-- 10. DIGITAL MARKETING -->
+<div class="detail-card" id="marketing">
+<div class="course-header" style="background-image:url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200')">
+<h2>Digital Marketing</h2>
+</div>
+<p><b>Instructor:</b> Ramesh</p>
+<p><b>Duration:</b> 2 Months</p>
+<p><b>Rating:</b> ⭐4.4</p>
+<p><b>Price:</b> ₹1800</p>
+<p><b>Course Curriculum: </b></p>
+<ul>
+<li>SEO</li>
+<li>Social Media Marketing</li>
+<li>Content Strategy</li>
+<li>Ads</li>
+<li>Analytics</li>
+</ul>
+<button onclick="enroll('Digital Marketing')">Enroll</button>
+</div>
+
+</body>
+</html>

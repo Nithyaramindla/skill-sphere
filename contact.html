@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+<link rel="stylesheet" href="styles.css">
+<script>
+function submitForm(event) {
+  event.preventDefault();
+  const message = document.getElementById('successMessage');
+  message.style.display = 'block';
+  message.textContent = "🎉 Your query has been sent!";
+  event.target.reset();
+}
+</script>
+</head>
+<body>
+
+<header>
+  <h1>Contact Us</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="details.html">Course Details</a>
+    <a href="register.html">Register</a>
+    <a href="login.html">Login</a> 
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<h2 class="title">Send your Queries</h2>
+
+<div class="form-container">
+  <form onsubmit="submitForm(event)">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <div id="successMessage"></div>
+</div>
+
+</body>
+</html>

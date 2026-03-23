@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Courses>
+    <Course id="web">
+        <Name>Web Development</Name>
+        <Instructor>John</Instructor>
+        <Duration>3 Months</Duration>
+        <Rating>4.5</Rating>
+        <Price>2000</Price>
+        <Curriculum>
+            <Topic>HTML, CSS, JavaScript</Topic>
+            <Topic>Responsive Design</Topic>
+            <Topic>Website Deployment</Topic>
+            <Topic>Mini Projects</Topic>
+            <Topic>Real-world Applications</Topic>
+        </Curriculum>
+    </Course>
+
+    <Course id="python">
+        <Name>Python Programming</Name>
+        <Instructor>Ravi</Instructor>
+        <Duration>2 Months</Duration>
+        <Rating>4.6</Rating>
+        <Price>1800</Price>
+        <Curriculum>
+            <Topic>Python Basics</Topic>
+            <Topic>Loops & Functions</Topic>
+            <Topic>File Handling</Topic>
+            <Topic>Mini Projects</Topic>
+            <Topic>Problem Solving</Topic>
+        </Curriculum>
+    </Course>
+
+    <Course id="ds">
+        <Name>Data Science</Name>
+        <Instructor>Sneha</Instructor>
+        <Duration>4 Months</Duration>
+        <Rating>4.7</Rating>
+        <Price>3000</Price>
+        <Curriculum>
+            <Topic>Data Analysis</Topic>
+            <Topic>Python Libraries</Topic>
+            <Topic>Visualization</Topic>
+            <Topic>Machine Learning Basics</Topic>
+            <Topic>Projects</Topic>
+        </Curriculum>
+    </Course>
+
+    <Course id="cyber">
+        <Name>Cyber Security</Name>
+        <Instructor>Arjun</Instructor>
+        <Duration>3 Months</Duration>
+        <Rating>4.4</Rating>
+        <Price>2500</Price>
+        <Curriculum>
+            <Topic>Network Security</Topic>
+            <Topic>Ethical Hacking</Topic>
+            <Topic>Encryption</Topic>
+            <Topic>Threat Analysis</Topic>
+            <Topic>Security Tools</Topic>
+        </Curriculum>
+    </Course>
+
+    <Course id="java">
+        <Name>Java Programming</Name>
+        <Instructor>Kiran</Instructor>
+        <Duration>3 Months</Duration>
+        <Rating>4.5</Rating>
+        <Price>2200</Price>
+        <Curriculum>
+            <Topic>OOP Concepts</Topic>
+            <Topic>Core Java</Topic>
+            <Topic>Collections</Topic>
+            <Topic>Projects</Topic>
+            <Topic>Applications</Topic>
+        </Curriculum>
+    </Course>
+
+    <Course id="ml">
+        <Name>Machine Learning</Name>
+        <Instructor>Rahul</Instructor>
+        <Duration>4 Months</Duration>
+        <Rating>4.8</Rating>
+        <Price>3500</Price>
+        <Curriculum>
+            <Topic>Supervised Learning</Topic>
+            <Topic>Algorithms</Topic>
+            <Topic>Model Training</Topic>
+            <Topic>Projects</Topic>
+            <Topic>AI Basics</Topic>
+        </Curriculum>
+    </Course>
+
+    <Course id="cloud">
+        <Name>Cloud Computing</Name>
+        <Instructor>Meena</Instructor>
+        <Duration>3 Months</Duration>
+        <Rating>4.6</Rating>
+        <Price>2800</Price>
+        <Curriculum>
+            <Topic>AWS Basics</Topic>
+            <Topic>Cloud Storage</Topic>
+            <Topic>Deployment</Topic>
+            <Topic>Security</Topic>
+            <Topic>Projects</Topic>
+        </Curriculum>
+    </Course>
+
+    <Course id="app">
+        <Name>App Development</Name>
+        <Instructor>Anil</Instructor>
+        <Duration>3 Months</Duration>
+        <Rating>4.5</Rating>
+        <Price>2600</Price>
+        <Curriculum>
+            <Topic>Android Basics</Topic>
+            <Topic>UI Design</Topic>
+            <Topic>APIs</Topic>
+            <Topic>Projects</Topic>
+            <Topic>Publishing Apps</Topic>
+        </Curriculum>
+    </Course>
+
+    <Course id="uiux">
+        <Name>UI/UX Design</Name>
+        <Instructor>Priya</Instructor>
+        <Duration>2 Months</Duration>
+        <Rating>4.6</Rating>
+        <Price>2000</Price>
+        <Curriculum>
+            <Topic>Design Principles</Topic>
+            <Topic>Wireframing</Topic>
+            <Topic>Prototyping</Topic>
+            <Topic>Tools (Figma)</Topic>
+            <Topic>Projects</Topic>
+        </Curriculum>
+    </Course>
+
+    <Course id="marketing">
+        <Name>Digital Marketing</Name>
+        <Instructor>Ramesh</Instructor>
+        <Duration>2 Months</Duration>
+        <Rating>4.4</Rating>
+        <Price>1800</Price>
+        <Curriculum>
+            <Topic>SEO</Topic>
+            <Topic>Social Media Marketing</Topic>
+            <Topic>Content Strategy</Topic>
+            <Topic>Ads</Topic>
+            <Topic>Analytics</Topic>
+        </Curriculum>
+    </Course>
+
+</Courses>

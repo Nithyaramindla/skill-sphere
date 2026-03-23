@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register</title>
+<link rel="stylesheet" href="styles.css">
+<script>
+function loadCourse() {
+  document.getElementById("course").value = "";
+}
+
+function submitForm(e) {
+  e.preventDefault();
+  let email = document.getElementById("email").value.trim();
+  let pass = document.getElementById("pass").value;
+  let cpass = document.getElementById("cpass").value;
+  let course = document.getElementById("course").value;
+
+  if (!email.includes("@") || !email.includes(".")) {
+    alert("⚠️ Incorrect Email!");
+    return;
+  }
+  if (pass !== cpass) {
+    alert("❌ Password mismatch");
+    return;
+  }
+  if (!course) {
+    alert("⚠️ Please select a course");
+    return;
+  }
+  alert("🎉 Registered Successfully!");
+}
+</script>
+</head>
+<body onload="loadCourse();">
+
+<header>
+  <h1>Register</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="details.html">Course Details</a>
+    <a href="register.html">Register</a>
+    <a href="login.html">Login</a> 
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <div class="form-container">
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="tel" placeholder="Phone" required>
+      <input type="password" id="pass" placeholder="Password" required>
+      <input type="password" id="cpass" placeholder="Confirm Password" required>
+      <select id="course" required>
+        <option value="" disabled selected>Select your course</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Python">Python</option>
+        <option value="Data Science">Data Science</option>
+        <option value="Cyber Security">Cyber Security</option>
+        <option value="Java">Java</option>
+        <option value="Machine Learning">Machine Learning</option>
+        <option value="Cloud Computing">Cloud Computing</option>
+        <option value="App Development">App Development</option>
+        <option value="UI/UX">UI/UX</option>
+        <option value="Digital Marketing">Digital Marketing</option>
+      </select>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</main>
+
+</body>
+</html>
